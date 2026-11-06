@@ -1,0 +1,1 @@
+Video/Audio/Channel Settings are on the LEFT. 32-channel table, preview and playlist remain on the RIGHT. English UI and all playback logic retained.

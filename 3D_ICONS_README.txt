@@ -1,0 +1,1 @@
+3D beveled icon assets replace the original ui_icons/*.png. Static PNGs keep runtime GPU/CPU effects unnecessary. Existing Tkinter icon loading logic remains unchanged. Visual appearance on Windows 8 not yet verified.

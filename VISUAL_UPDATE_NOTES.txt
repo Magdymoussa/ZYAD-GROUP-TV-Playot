@@ -1,0 +1,1 @@
+Visual styling: darker navy and cyan button borders; backup bar pinned to bottom; distinct Backup Now, Restore, Backup Location, Auto Backup and Backup History icons. English labels retained. Not a pixel-perfect recreation of the reference artwork.

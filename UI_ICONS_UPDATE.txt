@@ -1,0 +1,1 @@
+Updated navigation, playlist and playback controls with graphical icons; adjusted button spacing, sizing and border styling. Existing broadcasting logic unchanged.

@@ -1,0 +1,25 @@
+AMIR SAT v3.1 - Review build (source)
+2026-11-06
+
+Implemented in this update:
+- Three total failed playback attempts before skipping to next video.
+- Single-frame thumbnail preview using FFmpeg without extra UDP output.
+- Direct Restore button with backup validation and confirmation.
+- Backup location picker.
+- Existing natural numeric sort, folder recursion, Original copy and unlimited channel recovery retained.
+
+Checks performed:
+- python -m py_compile app.py : PASS
+- python test_logic.py : PASS
+- xvfb-run GUI launch (7 seconds): no traceback; process terminated by timeout intentionally.
+
+Not verified:
+- Actual Windows 8 GUI appearance and usability.
+- Real-time embedded moving preview (thumbnail only).
+- Per-channel measured UDP bitrate.
+- Gapless transitions between independent MP4 files.
+- 24 or 32 live channels to SATLINK ST-8631.
+- Pixel-perfect match to approved mockup.
+
+Requires ffmpeg.exe on Windows and Pillow for preview images.
+This is source code, not a Windows executable.

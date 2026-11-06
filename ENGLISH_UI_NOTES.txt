@@ -1,0 +1,1 @@
+Removed Arabic text from embedded banner asset; English-only UI source verified. Original logo remains. This is a source update, not a Windows EXE.

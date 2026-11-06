@@ -1,0 +1,4 @@
+AMIR SAT v3.1 - UI revision (2026-11-06)
+Changes: left settings panel narrowed to match reference proportions; preview and an immediately visible playlist placed side by side; quick playlist navigation and play-selected controls wired to existing channel switching; existing backup, natural sorting and recovery preserved.
+Tests: python -m py_compile app.py PASS; python test_logic.py PASS; Linux Xvfb GUI startup 9 seconds without exception; screenshot captured in AMIR_SAT_v3_1_Updated_Actual_UI.png.
+Limitations: Not pixel-perfect to reference; Arabic text shaping in Linux Xvfb is incorrect; Tkinter widgets do not match stylized reference icons; Windows 8, live UDP, 24 simultaneous channels, true bitrate and gapless transitions untested. This is SOURCE CODE, not a compiled EXE.
